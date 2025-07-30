@@ -1,0 +1,18 @@
+2025-01-26 09:00:01 ERROR [DatabaseConnection] - ConnectionTimeoutException: Database connection timed out after 45 seconds
+2025-01-26 09:05:15 WARNING [MemoryManager] - LowMemoryWarning: Available memory below 10% threshold
+2025-01-26 09:10:30 ERROR [FileProcessor] - FilePermissionException: Unable to write to log file /var/log/myapp/app.log due to insufficient permissions
+2025-01-26 09:15:45 ERROR [APIHandler] - InvalidRequestException: Malformed JSON in request body
+2025-01-26 09:20:00 WARNING [LoadBalancer] - HighLatencyWarning: Service response time exceeds 500ms threshold
+2025-01-26 09:25:15 ERROR [UserAuthenticator] - AccountLockedException: User account 'john_doe' locked due to multiple failed login attempts
+2025-01-26 09:30:30 ERROR [ConfigurationManager] - ConfigurationParseException: Invalid YAML syntax in configuration file 'app_config.yaml'
+2025-01-26 09:35:45 WARNING [NetworkMonitor] - PacketLossWarning: Network experiencing 5% packet loss
+2025-01-26 09:40:00 ERROR [DatabaseQuery] - SQLSyntaxErrorException: Syntax error in SQL statement: SELECT * FORM users WHERE id = 1
+2025-01-26 09:45:15 ERROR [CacheManager] - CacheEvictionException: Unable to evict items from cache due to thread contention
+2025-01-26 09:50:30 WARNING [DiskMonitor] - LowDiskSpaceWarning: Available disk space on /dev/sda1 below 5GB
+2025-01-26 09:55:45 ERROR [EmailService] - SMTPAuthenticationException: Failed to authenticate with SMTP server
+2025-01-26 10:00:00 ERROR [PaymentGateway] - TransactionFailedException: Payment transaction failed due to insufficient funds
+2025-01-26 10:05:15 WARNING [APIGateway] - DeprecatedEndpointWarning: API endpoint '/v1/legacy/users' is deprecated and will be removed in future versions
+2025-01-26 10:10:30 ERROR [ImageProcessor] - UnsupportedFormatException: Image format '.webp' is not supported
+2025-01-26 10:15:45 ERROR [AuthorizationService] - UnauthorizedAccessException: User 'guest' attempted to access restricted resource '/admin/users'
+2025-01-26 10:20:00 WARNING [SessionManager] - SessionExpirationWarning: 100 user sessions expired due to inactivity
+2025-01-26 10:25:15 ERROR [DatabaseMigration] - MigrationFailedException: Failed to apply database schema mig

@@ -1,0 +1,9 @@
+2025-01-25 13:45:23 Line 1 Compiled
+2025-01-25 13:46:01 WARNING [MemoryManager] - MemoryLowWarning: Available memory below 15% threshold
+2025-01-25 13:47:12 Line 2 Compiled
+2025-01-25 13:48:37 Line 4 Compiled
+2025-01-25 13:49:03 Line 5 Compiled
+2025-01-25 13:50:29 Line 1 Compiled
+2025-01-25 13:51:51 Line 1 Compiled
+2025-01-25 13:52:18 WARNING [InputValidator] Invalid age input (-5) received
+2025-01-25 13:53:42 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'validateUser' in UserService.cpp:78

@@ -1,0 +1,46 @@
+2025-01-25 08:00:01 INFO [SystemBootstrap] - Application starting up...
+2025-01-25 08:00:05 ERROR [ConfigLoader] - FileNotFoundException: Unable to locate config file at /etc/myapp/config.yaml
+2025-01-25 08:00:06 WARNING [ConfigLoader] - Using default configuration settings
+2025-01-25 08:00:10 ERROR [DatabaseConnection] - SQLTimeoutException: Database connection timed out after 30 seconds
+2025-01-25 08:00:15 ERROR [UserAuthenticator] - NullPointerException: User object is null
+2025-01-25 08:00:20 WARNING [MemoryManager] - MemoryLowWarning: Available memory below 15% threshold
+2025-01-25 08:00:25 ERROR [FileProcessor] - FileNotFoundException: Unable to open log file /var/log/myapp/app.log
+2025-01-25 08:00:30 ERROR [MathOperations] - ArithmeticException: Division by zero attempted
+2025-01-25 08:00:35 WARNING [NetworkService] - ConnectionResetWarning: Connection reset by peer 192.168.1.100
+2025-01-25 08:00:40 ERROR [ConfigParser] - ParseException: Unexpected token in configuration file at line 17, column 23
+2025-01-25 08:00:45 ERROR [SecurityManager] - AccessDeniedException: Insufficient permissions to read file /var/log/myapp/audit.log
+2025-01-25 08:00:50 WARNING [InputValidator] - ValidationWarning: Invalid age input (-5) received
+2025-01-25 08:00:55 ERROR [ThreadPool] - ThreadLimitExceededException: Maximum thread limit (100) reached
+2025-01-25 08:01:00 WARNING [CacheManager] - CacheEvictionWarning: 500 least recently used items evicted from cache
+2025-01-25 08:01:05 ERROR [DatabaseQuery] - SQLException: Syntax error in SQL statement: SELECT * FORM users
+2025-01-25 08:01:10 ERROR [APIHandler] - HttpClientErrorException: 404 Not Found: https://api.example.com/v1/users
+2025-01-25 08:01:15 WARNING [DataProcessor] - DataInconsistencyWarning: Mismatched data types in column 'age'
+2025-01-25 08:01:20 ERROR [EventDispatcher] - EventPublishException: Failed to publish event to message queue
+2025-01-25 08:01:25 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'calculateTax' in TaxCalculator.cpp:45
+2025-01-25 08:01:30 WARNING [PerformanceMonitor] - HighCPUUsageWarning: CPU usage above 90% for 5 minutes
+2025-01-25 08:01:35 ERROR [ImageProcessor] - OutOfMemoryError: Java heap space
+2025-01-25 08:01:40 ERROR [NetworkProxy] - SocketTimeoutException: Read timed out after 60000 milliseconds
+2025-01-25 08:01:45 WARNING [SessionManager] - SessionExpirationWarning: 100 inactive sessions expired
+2025-01-25 08:01:50 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'validateUser' in UserService.cpp:78
+2025-01-25 08:01:55 ERROR [FileSystem] - IOException: No space left on device
+2025-01-25 08:02:00 WARNING [LoadBalancer] - ServerDownWarning: Server node 'app-server-03' is not responding
+2025-01-25 08:02:05 ERROR [TransactionManager] - TransactionRollbackException: Transaction rolled back due to constraint violation
+2025-01-25 08:02:10 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'encryptData' in SecurityUtils.cpp:112
+2025-01-25 08:02:15 WARNING [MemoryManager] - MemoryLeakWarning: Potential memory leak detected in module 'DataProcessor'
+2025-01-25 08:02:20 ERROR [ConfigLoader] - InvalidConfigurationException: Invalid database URL in configuration
+2025-01-25 08:02:25 ERROR [APIClient] - ApiAuthenticationException: Invalid API key provided
+2025-01-25 08:02:30 WARNING [CacheManager] - CacheMissWarning: High cache miss rate (75%) for 'user_profiles' cache
+2025-01-25 08:02:35 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'parseJSON' in DataParser.cpp:67
+2025-01-25 08:02:40 ERROR [ThreadPool] - RejectedExecutionException: Task rejected from java.util.concurrent.ThreadPoolExecutor
+2025-01-25 08:02:45 WARNING [DatabaseConnection] - SlowQueryWarning: Query execution time exceeded 5 seconds
+2025-01-25 08:02:50 ERROR [FileProcessor] - FileCorruptionException: Checksum validation failed for file /data/backup/users.bak
+2025-01-25 08:02:55 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'sendEmail' in NotificationService.cpp:89
+2025-01-25 08:03:00 WARNING [SystemMonitor] - HighMemoryUsageWarning: Memory usage above 85% threshold
+2025-01-25 08:03:05 ERROR [DatabaseMigration] - MigrationFailedException: Failed to apply database schema change
+2025-01-25 08:03:10 ERROR [SecurityManager] - CertificateExpiredException: SSL certificate has expired
+2025-01-25 08:03:15 WARNING [APIGateway] - RateLimitWarning: API rate limit reached for client 203.0.113.42
+2025-01-25 08:03:20 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'logAudit' in AuditLogger.cpp:56
+2025-01-25 08:03:25 ERROR [ImageProcessor] - UnsupportedFormatException: Unsupported image format: .webp
+2025-01-25 08:03:30 WARNING [BackupManager] - BackupIncompleteWarning: Incremental backup incomplete due to network interruption
+2025-01-25 08:03:35 ERROR [EventDispatcher] - MessageDeserializationException: Unable to deserialize incoming message
+2025-01-25 08:03:40 ERROR [Compiler] - UndefinedReferenceException: Undefined reference to 'validatePassword' in AuthenticationService.cpp:134

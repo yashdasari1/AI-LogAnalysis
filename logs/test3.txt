@@ -1,0 +1,19 @@
+2025-01-25 16:05:00 ERROR [DatabaseConnection] - SQLTimeoutException: Database connection timed out after 30 seconds
+2025-01-25 16:05:15 ERROR [UserAuthenticator] - NullPointerException: User object is null
+2025-01-25 16:05:20 WARNING [MemoryManager] - MemoryLowWarning: Available memory below 15% threshold
+2025-01-25 16:05:30 ERROR [MathOperations] - ArithmeticException: Division by zero attempted
+2025-01-25 16:05:40 ERROR [ConfigParser] - ParseException: Unexpected token in configuration file at line 17, column 23
+2025-01-25 16:05:50 WARNING [InputValidator] - ValidationWarning: Invalid age input (-5) received
+2025-01-25 16:06:00 WARNING [CacheManager] - CacheEvictionWarning: 500 least recently used items evicted from cache
+2025-01-25 16:06:10 ERROR [APIHandler] - HttpClientErrorException: 404 Not Found: https://api.example.com/v1/users
+2025-01-25 16:06:20 ERROR [ImageProcessor] - OutOfMemoryError: Java heap space
+2025-01-25 16:06:30 ERROR [TransactionManager] - TransactionRollbackException: Transaction rolled back due to constraint violation
+2025-01-25 16:06:40 ERROR [ConfigLoader] - InvalidConfigurationException: Invalid database URL in configuration
+2025-01-25 16:06:50 ERROR [FileProcessor] - FileCorruptionException: Checksum validation failed for file /data/backup/users.bak
+2025-01-25 16:07:00 ERROR [SecurityManager] - CertificateExpiredException: SSL certificate has expired
+2025-01-25 16:07:10 ERROR [ImageProcessor] - UnsupportedFormatException: Unsupported image format: .webp
+2025-01-25 16:07:20 ERROR [UserManager] - DuplicateUserException: Attempt to create user with existing email address
+2025-01-25 16:07:30 ERROR [AuthenticationService] - InvalidCredentialsException: Login attempt failed for user 'admin' due to incorrect password
+2025-01-25 16:07:40 ERROR [DatabaseQuery] - DeadlockException: Transaction deadlock detected and rolled back
+2025-01-25 16:07:50 ERROR [APIGateway] - InvalidRequestException: Malformed JSON in request body
+2025-01-25 16:08:00 ERROR [CacheManager] - CacheInitializationException: Failed to initialize distributed cache
