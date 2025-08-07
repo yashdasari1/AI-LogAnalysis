@@ -1,0 +1,7 @@
+# LangChain + Ollama Dependencies
+langchain>=0.1.0
+langchain-community>=0.0.10
+ollama>=0.1.7
+
+# Additional utilities
+pathlib2>=2.3.7; python_version < "3.4"
